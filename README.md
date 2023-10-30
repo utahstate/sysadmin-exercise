@@ -72,6 +72,6 @@ Before you start, ensure that you have:
 
 You have successfully set up a virtual machine, installed Docker, pulled the `usuit/sysadmin-exercise:20231030` Docker image, and run it inside the VM.
 
-For more information about the Docker image and the sysadmin exercise, please refer to the [usuit/sysadmin-exercise repository](https://github.com/usuit/sysadmin-exercise).
+There is a web page running inside the Docker container.  Further instructions are found on the web page.
 
 Happy learning and sysadmin practice!
