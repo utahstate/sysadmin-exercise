@@ -13,40 +13,10 @@ Before you start, ensure that you have:
 1. **Install Docker**
 
    - SSH into your virtual machine.
-   
-   - Update the package repository and install necessary packages:
 
-     ```bash
-     sudo apt update
-     sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-     ```
+   - Install Docker
 
-   - Add the Docker repository and GPG key:
-
-     ```bash
-     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-     echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-     ```
-
-   - Update the package index again and install Docker:
-
-     ```bash
-     sudo apt update
-     sudo apt install -y docker-ce docker-ce-cli containerd.io
-     ```
-
-   - Start the Docker service and enable it to start on boot:
-
-     ```bash
-     sudo systemctl start docker
-     sudo systemctl enable docker
-     ```
-
-   - Verify that Docker is installed and running:
-
-     ```bash
-     sudo docker --version
-     ```
+   - Start the Docker service and enable it to start on boot
 
 2. **Pull and Run the Docker Image**
 
@@ -69,8 +39,6 @@ Before you start, ensure that you have:
    - Access the application in your web browser by navigating to `http://your_vm_ip:80`.
 
 ## Conclusion
-
-You have successfully set up a virtual machine, installed Docker, pulled the `usuit/sysadmin-exercise:20231030` Docker image, and run it inside the VM.
 
 There is a web page running inside the Docker container.  Further instructions are found on the web page.
 
