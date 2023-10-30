@@ -6,7 +6,9 @@ This guide will walk you through setting up a virtual machine, installing Docker
 
 Before you start, ensure that you have:
 
-- A virtual machine (VM) with your desired operating system installed.
+- A virtual machine (VM) with your desired operating system installed.  You should be able to use Windows or Linux.
+- Use the virtualization software of your choise (i.e. VMware, VirtualBox, QEMU, Parallels, etc.)
+- This Docker image will only run in a virtual machine.
 
 ## Instructions
 
