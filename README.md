@@ -1,7 +1,5 @@
 # sysadmin-exercise: Docker Setup
 
-This guide will walk you through setting up a virtual machine, installing Docker, pulling the `usuit/sysadmin-exercise:20231030` Docker image, and running it inside the VM using the specified `docker run` command.
-
 ## Prerequisites
 
 Before you start, ensure that you have:
