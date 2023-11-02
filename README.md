@@ -22,16 +22,16 @@ Before you start, ensure that you have:
 
 2. **Pull and Run the Docker Image**
 
-   - Pull the `usuit/sysadmin-exercise:20231030` Docker image from Docker Hub:
+   - Pull the `usuit/sysadmin-exercise:20231102` Docker image from Docker Hub:
 
      ```bash
-     sudo docker pull usuit/sysadmin-exercise:20231030
+     sudo docker pull usuit/sysadmin-exercise:20231102
      ```
 
    - Run the Docker container with the following command:
 
      ```bash
-     sudo docker run --rm -p 80:80 --name sysadmin-exercise usuit/sysadmin-exercise:20231030
+     sudo docker run --rm -p 80:80 --name sysadmin-exercise usuit/sysadmin-exercise:20231102
      ```
 
      - `--rm`: Automatically remove the container when it exits.
