@@ -10,36 +10,12 @@ Before you start, ensure that you have:
 
 ## Instructions
 
-1. **Install Docker**
+We were given the Dockerfile in this repo and were instructed that there should be a webapp that spawns when the Docker container is running.
 
-   - SSH into your virtual machine.
+Build an image using this Dockerfile and investigate the webapp.
+   
+## Presentation and Interview Day
 
-   - Install Docker
+Be prepared to walk us through the methods you used to build the virtual machine and docker image and how you went about investigating the application.
 
-   - Start the Docker service and enable it to start on boot
 
-2. **Pull and Run the Docker Image**
-
-   - Pull the `usuit/sysadmin-exercise:20231102` Docker image from Docker Hub:
-
-     ```bash
-     sudo docker pull usuit/sysadmin-exercise:20231102
-     ```
-
-   - Run the Docker container with the following command:
-
-     ```bash
-     sudo docker run --rm -p 80:80 --name sysadmin-exercise usuit/sysadmin-exercise:20231102
-     ```
-
-     - `--rm`: Automatically remove the container when it exits.
-     - `-p 80:80`: Map port 80 of the host to port 80 of the container.
-     - `--name sysadmin-exercise`: Name the container as "sysadmin-exercise."
-
-   - Access the application in your web browser by navigating to `http://your_vm_ip:80`.
-
-## Conclusion
-
-There is a web page running inside the Docker container.  Further instructions are found on the web page.
-
-Happy learning and sysadmin practice!
