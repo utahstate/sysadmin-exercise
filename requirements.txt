@@ -1,0 +1,1 @@
+git+https://git@github.com/utahstate/sysadmin-exercise-webapp.git#egg=sysadminwebapp
