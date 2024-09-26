@@ -1,4 +1,4 @@
-# sysadmin-exercise: Docker Setup
+# sysadmin-exercise:
 
 ## Prerequisites
 
