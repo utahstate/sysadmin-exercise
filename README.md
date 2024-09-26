@@ -10,7 +10,7 @@ Before you start, ensure that you have:
 
 ## Instructions
 
-We were given the Dockerfile in this repo and were instructed that there should be a webapp that spawns when the Docker container is running.
+Suppose you were given the Dockerfile in this repo and were instructed that there should be a webapp that spawns when the Docker container is running.
 
 Build an image using this Dockerfile and investigate the webapp.
    
