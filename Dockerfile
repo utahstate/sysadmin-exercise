@@ -3,6 +3,4 @@ FROM usuit/sysadmin-exercise:amd64
 #Switch to arm64 if needed for your computer's architecture
 #FROM usuit/sysadmin-exercise:arm64
 
-COPY requirements.txt /opt/app/ 
-
-RUN pip install --no-cache-dir -r requirements.txt
+RUN git clone https://git@github.com/utahstate/sysadmin-exercise-webapp.git
