@@ -2,10 +2,8 @@
 
 ## Prerequisites
 
-Before you start, ensure that you have:
+Before you start, ensure that you have a virtual machine (VM) with your desired operating system installed.  You should be able to use Windows or Linux.
 
-- A virtual machine (VM) with your desired operating system installed.  You should be able to use Windows or Linux.
-- Use the virtualization software of your choice (i.e. VMware, VirtualBox, QEMU, Parallels, etc.)
 
 ## Instructions
 
